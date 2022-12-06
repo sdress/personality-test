@@ -7,5 +7,5 @@ from flask import render_template, redirect, request, session, flash
 
 @app.route('/')
 def show_home():
-    # return render_template('index.html')
-    return "Hello World"
+    return render_template('index.html')
+    # return "Hello World"
