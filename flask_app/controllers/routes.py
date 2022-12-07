@@ -9,3 +9,7 @@ from flask import render_template, redirect, request, session, flash
 def show_home():
     return render_template('index.html')
     # return "Hello World"
+
+@app.route('/test')
+def show_test():
+    return render_template('form.html')
